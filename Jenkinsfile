@@ -2,7 +2,7 @@ node {
 
    stage('Cloning') {
         echo 'Project is cloning...'
-        git 'https://github.com/jglick/simple-maven-project-with-tests.git'
+        git 'https://github.com/SerhiiShnaider/jt.git'
 
    }
    stage('Build') {
